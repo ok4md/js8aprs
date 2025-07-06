@@ -5,8 +5,8 @@ import serial
 # === Configuration ===
 GPS_COM_PORT = "COM10"
 FIXED_GRID = "KN12DR"
-GPS_INTERVAL = 210        # 1 minute
-FIXED_INTERVAL = 900     # 15 minutes
+GPS_INTERVAL = 180       
+FIXED_INTERVAL = 900
 
 def parse_gpgga(line):
     """Parse GPGGA NMEA sentence and return decimal lat/lon"""
