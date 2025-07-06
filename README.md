@@ -1,3 +1,6 @@
+Send position to APRS via JS8Call using connected GPS or shared GPS position from mobile phone.
+Using JS8NET library.
+
 # js8net
 
 #### _Jeff Francis <jeff@gritch.org>_, N0GQ
